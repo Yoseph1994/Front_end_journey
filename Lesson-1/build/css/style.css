@@ -540,8 +540,24 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.grid {
+  display: grid;
+}
+
+.h-52 {
+  height: 13rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-52 {
   width: 13rem;
+}
+
+.place-content-center {
+  place-content: center;
 }
 
 .rounded-full {
@@ -551,6 +567,11 @@ video {
 .bg-emerald-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(16 185 129 / var(--tw-bg-opacity));
+}
+
+.bg-teal-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 246 228 / var(--tw-bg-opacity));
 }
 
 .shadow-2xl {
